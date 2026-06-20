@@ -1,12 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192">
   <!-- fondo -->
   <rect width="192" height="192" rx="32" fill="#0f0f1a"/>
+
+  <!-- franja roja superior (acento institucional) -->
+  <rect x="0" y="0" width="192" height="6" fill="#c0392b"/>
+
   <!-- sobre: cuerpo -->
-  <rect x="28" y="56" width="136" height="96" rx="8" fill="none" stroke="#c0392b" stroke-width="8"/>
-  <!-- sobre: solapa diagonal izq -->
-  <line x1="28" y1="56" x2="96" y2="112" stroke="#c0392b" stroke-width="8" stroke-linecap="round"/>
-  <!-- sobre: solapa diagonal der -->
-  <line x1="164" y1="56" x2="96" y2="112" stroke="#c0392b" stroke-width="8" stroke-linecap="round"/>
-  <!-- estrella Chile pequeña (decorativa) -->
-  <text x="96" y="48" text-anchor="middle" font-size="22" fill="#d4a017">★</text>
+  <rect x="34" y="62" width="124" height="86" rx="6" fill="none" stroke="#c0392b" stroke-width="7"/>
+  <!-- sobre: solapa izquierda -->
+  <line x1="34" y1="62" x2="96" y2="112" stroke="#c0392b" stroke-width="7" stroke-linecap="round"/>
+  <!-- sobre: solapa derecha -->
+  <line x1="158" y1="62" x2="96" y2="112" stroke="#c0392b" stroke-width="7" stroke-linecap="round"/>
+
+  <!-- estrella dorada (chile) sobre la solapa -->
+  <path d="M96 92 L99.5 101.5 L109.5 101.8 L101.5 108 L104.3 117.5 L96 111.8 L87.7 117.5 L90.5 108 L82.5 101.8 L92.5 101.5 Z" fill="#d4a017"/>
 </svg>
