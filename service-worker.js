@@ -4,7 +4,7 @@
 // CACHE_VERSION se incrementa en cada release para forzar limpieza de cachés
 // viejos y activación inmediata de la nueva versión en todos los clientes.
 
-const CACHE_VERSION = 'escribeles-v5';
+const CACHE_VERSION = 'escribeles-v6';
 const SCOPE = '/Escribeles/';
 
 const STATIC_ASSETS = [
